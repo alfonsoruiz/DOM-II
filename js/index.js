@@ -56,6 +56,7 @@ destinationDiv.forEach(element => {
         console.log('destination div has been clicked');
     });
 });
+
 window.addEventListener('resize', event => console.log('Window has been resized'));
 window.addEventListener('scroll', event => console.log('Scrolling has taken place'));
 window.addEventListener('load', event => console.log('page has loaded'));
